@@ -31,3 +31,4 @@ Mean IoU =  0.9512815344309031
 1. Clean data, by creating a pre-processor, which will erase rreflection from the Pupil (at least).
 2. Ellipse fitting can be done robust: points that are far from the fitted ellipse can be ignored. For this one can use weighted linear regression. Something
    like that: https://reference.wolfram.com/applications/eda/RobustFitting.html
+3. Augment data to make it more precise (noise, other real distortions).

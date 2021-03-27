@@ -1,8 +1,8 @@
 # To train the model
-## Add L2 Directory with the data
-Please download the directory (of the exercise). Call it L2.
+In order to train the model one has to download the data first and put into L2 directory. Then run a jupyter notebook as explained below:
+* Add Directory with the data to the root directory. Call it `L2`.
+* Run SegmentationTrain jupyter notebook.
 
-## Run SegmentationTrain jupyter notebook.
 Notice that the model loads pretrained weights from the Londons dataset of dogs/cats segmentation using U-Net.
 
 # To compute the results

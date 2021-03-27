@@ -1,5 +1,5 @@
 # To train the model
-In order to train the model one has to download the data first and put into L2 directory. Then run a jupyter notebook as explained below:
+In order to train the model
 * Add Directory with the data to the root directory. Call it `L2`.
 * Run SegmentationTrain jupyter notebook.
 

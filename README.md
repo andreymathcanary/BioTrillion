@@ -23,3 +23,11 @@ Mean X center - error = 5.02 , Mean Y center error = 3.13
 Mean angle error = 12.72
 Mean IoU =  0.9512815344309031
 ```
+# Auxilliary data
+* The file `Ellipse.pdf` contains all the necessary formulas for fitting Ellipse to a set of (x,y) points. Linear regression-wise.
+* The floder `Articles` contains a few articles that were found and helped to understand more precisely the problem.
+
+# What could be done better:
+1. Clean data, by creating a pre-processor, which will erase rreflection from the Pupil (at least).
+2. Ellipse fitting can be done robust: points that are far from the fitted ellipse can be ignored. For this one can use weighted linear regression. Something
+   like that: https://reference.wolfram.com/applications/eda/RobustFitting.html

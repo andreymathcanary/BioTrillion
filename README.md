@@ -6,8 +6,8 @@ In order to train the model
 Notice that the model loads pretrained weights from the Londons dataset of dogs/cats segmentation using U-Net.
 
 # To compute the results
-run ApplyModelAndGenerateResults jupyter notebook.
-The final output of this notebook is:
+run ApplyModelAndGenerateResults jupyter notebook. This notebook uses the model trined earlier. The final, trained model is saved for convenience ( no need to train).
+The most important output of this notebook is:
 
 ```BASH
 +++++++++++++++++++++++++++++++++++++++++++++++++++++

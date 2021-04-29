@@ -1,3 +1,8 @@
+#
+
+This is the simplest ad most straightforward eye pupil and iris segmentation, implemented using U-Net.
+
+
 # To train the model
 In order to train the model
 * Add Directory with the data to the root directory. Call it `L2`.
